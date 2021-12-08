@@ -1,0 +1,103 @@
+* body {
+    background-color: #f7f06d;
+}
+h3 {
+    color: #291400;
+}
+header {
+    background-color: #291400;
+    color: #f7f06d;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.summary {
+    background-color: #291400;
+    color: #f7f06d;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 550px;
+    margin-right: 550px;
+    text-align: left;
+}
+.preamble {
+    background-color: #ff850a;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+    margin: 10px 200px 0 200px;
+}
+.explanation {
+    background-color: #ff850a;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+.participation {
+    background-color: #ff850a;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+.benefits {
+    background-color: #ff850a;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+.requirements {
+    background-color: #ff850a;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+footer {
+    background-color: #291400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin: 10px;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #8f0000;
+}
+.wrapper {
+    position: absolute;
+    top: 1%;
+    left: 90%;
+    z-index: 150;
+    cursor: pointer;
+    text-decoration: none;
+}
+body::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 30px;
+    margin: -140em 1em 0 1em;
+    width: 95%;
+    height: 20em;
+    background: url(https://i.postimg.cc/Zq7DxfXZ/Salmon-facing-right.png) no-repeat;
+    background-size: contain;
+}
