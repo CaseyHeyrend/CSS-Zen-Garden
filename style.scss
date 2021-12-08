@@ -1,0 +1,106 @@
+//Colors
+$yellow:#f7f06d;
+$orange:#ff850a;
+$darkbrown:#291400;
+$red:#8f0000;
+$brown:#964b00;
+body{
+background-color: $yellow;
+}
+header {
+background-color:$darkbrown;
+color: $yellow;
+text-align: center;
+padding: 20px;
+font-size: 40px;
+margin-left: 550px;
+margin-right:550px;
+}
+h3{
+color:$darkbrown;
+}
+.summary {
+background-color:$darkbrown;
+color:$yellow;
+padding:10px;
+text-align: center;
+font-size: 18px;
+margin-left: 550px;
+margin-right:550px;
+text-align: left;
+
+}
+//The Road to Enlightenment
+.preamble {
+background-color: $orange;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+margin-left: 200px;
+margin-right:200px;
+text-align: left;
+margin:10px 200px 0 200px;
+}
+.explanation {
+background-color: $orange;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+margin-left: 200px;
+margin-right:200px;
+text-align: left;
+}
+.participation {
+background-color: $orange;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+margin-left: 200px;
+margin-right:200px;
+text-align: left;
+}
+.benefits {
+background-color:$orange;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+margin-left: 200px;
+margin-right:200px;
+text-align: left;
+}
+.requirements {
+background-color:$orange;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+margin-left: 200px;
+margin-right:200px;
+text-align: left;
+}
+.wrapper {
+
+}
+footer {
+background-color:$darkbrown;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 16px;
+margin: 10px
+}
+
+a
+{
+  cursor: pointer;
+  text-decoration: none;
+  color: $red;
+  
+}
+.wrapper{
+  position: absolute;
+  top: 1%;
+  left: 90%;
+  z-index: 150; 
+  cursor: pointer;
+  text-decoration: none; 
+}
